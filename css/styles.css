@@ -102,6 +102,10 @@ li {
 	body {
 		background: blue;	
 	}
+	
+	aside {
+		float: none;
+	}
  
 } /* end of phone */
 
