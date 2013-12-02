@@ -1,1 +1,32 @@
-/* Stylesheet */
+/* GLOBAL */
+
+/* LAYOUT */
+
+.container {
+	background: #6CC;
+	margin: 0 auto;
+	width: 960px;
+}
+
+nav {
+	background: #FC6;
+	width: 960px;	
+}
+
+article {
+	background: #6F9;
+	float: left;
+	width: 640px;
+}
+
+aside {
+	background: #6FF;
+	float: left;
+	width: 320px;	
+}
+
+footer {
+	background: #FF0;
+	clear: both;
+	width: 960px;
+}
