@@ -6,7 +6,7 @@
 	background: #6CC;
 	margin: 0 auto;
 	width: 95%;  /* Mostly responsive */
-	
+	max-width: 95%;  /* to address not allowing other browsers to stretch it too far */
 }
 
 nav {
@@ -70,3 +70,38 @@ li {
 }
 
 /* FLUID GRIDS */
+
+/*===============
+	DESKTOP
+===============*/
+@media screen and ( max-width: 1020px ) {
+	
+	body {
+		background: red;	
+	}
+ 
+} /* end of Desktop */
+ 
+ 
+/*===============
+	TABLET
+===============*/
+@media screen and ( max-width: 768px ) {
+	
+	body {
+		background: green;	
+	}
+ 
+} /* end of tablet */
+ 
+/*===============
+	PHONE
+===============*/
+@media screen and ( max-width: 480px ) {
+	
+	body {
+		background: blue;	
+	}
+ 
+} /* end of phone */
+
