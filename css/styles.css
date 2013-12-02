@@ -5,28 +5,68 @@
 .container {
 	background: #6CC;
 	margin: 0 auto;
-	width: 960px;
+	width: 95%;  /* Mostly responsive */
+	
 }
 
 nav {
 	background: #FC6;
-	width: 960px;	
+	width: 100%;	/*make sure its in context... 960/960 = 100% */
 }
 
 article {
 	background: #6F9;
 	float: left;
-	width: 640px;
+	width: 66.66666%;
 }
 
 aside {
 	background: #6FF;
 	float: left;
-	width: 320px;	
+	width: 33.33333%;	
 }
 
 footer {
 	background: #FF0;
 	clear: both;
-	width: 960px;
+	width: 100%;
 }
+
+/* TYPOGRAPHY */
+
+h1 {
+	font-size: 3em; /* 48px ÷ 16px = 3em */
+}
+
+h2 {
+	font-size: 2.25em; /* 36px ÷ 16px = 2.25em */
+}
+
+h3 {
+	font-size: 1.5em; /* 24px ÷ 16px = 1.5em */
+}
+
+p {
+	font-size: 1.25em; /* 20px ÷ 16px = 1.25em */
+	line-height: 1.25em;	
+}
+
+/* NAVIGATION */
+
+a {
+	color: #F00;
+	font-size: 1.25em;
+	text-decoration: none;
+}
+
+footer a {
+	font-size: 1em; /* 20px used in p, divided by 20px = 1em */	
+}
+
+li {
+	display: inline;
+	padding: 10px;
+	list-style: none;
+}
+
+/* FLUID GRIDS */
